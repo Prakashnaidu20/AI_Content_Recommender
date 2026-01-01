@@ -1,6 +1,6 @@
-# LLM-Powered Hybrid Content Recommendation System
+LLM-Powered Hybrid Content Recommendation System
 
-## 📌 Project Overview
+📌 Project Overview
 This project implements an AI-based hybrid content recommendation system inspired by
 platforms such as Google and YouTube. The system recommends personalized video content
 based on user intent, interest, mood, and time availability using Natural Language
@@ -10,9 +10,7 @@ The project is primarily implemented and evaluated inside a Jupyter Notebook for
 academic analysis, with an optional Streamlit-based web application for deployment
 demonstration.
 
----
-
-## 🎯 Objectives
+🎯 Objectives
 - Design a personalized content recommendation engine
 - Apply NLP techniques for semantic similarity
 - Implement explainable AI recommendations
@@ -20,29 +18,28 @@ demonstration.
 - Enable video playback inside Jupyter Notebook
 - Demonstrate deployment using Streamlit
 
----
-
-## 🧠 System Architecture
+🧠 System Architecture
 The system follows a hybrid recommendation approach:
 
-1. **Input Layer**
+1. Input Layer
    - User query (interest / topic)
    - Optional context (mood, time duration)
 
-2. **Processing Layer**
+2. Processing Layer
    - Text preprocessing
    - TF-IDF vectorization
    - Cosine similarity computation
 
-3. **Recommendation Layer**
+3. Recommendation Layer
    - Ranking of content items
    - Filtering based on relevance score
 
-4. **Explanation Layer**
+4. Explanation Layer
    - LLM-style natural language reasoning
    - Transparent and interpretable outputs
 
-5. **Presentation Layer**
+5. Presentation Layer
    - Jupyter Notebook (primary evaluation)
    - Streamlit Web App (optional deployment)
+
 
